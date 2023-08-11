@@ -7,7 +7,7 @@ const bodyParser = require("body-parser")
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Answer 1
+// Answer 1 answer
 app.post("/email", (req, res) => {
     const email = req.body.email;
     const password = req.body.password;
